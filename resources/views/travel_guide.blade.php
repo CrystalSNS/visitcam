@@ -90,4 +90,3 @@ Traditionally, women often wear a rose above the right ear and a phuong on the l
 
 </body>
 @include('static.footer')
-</html>
