@@ -27,6 +27,7 @@
 <div id="wrapper">
 	<!-- start header -->
 	<header>
+		<h1>hello</h1>
         <div class="navbar navbar-default navbar-static-top">
             <div class="container">
                 <div class="navbar-header">
