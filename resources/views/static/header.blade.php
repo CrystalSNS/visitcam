@@ -44,12 +44,12 @@
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle " data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false">Tour <b class=" icon-angle-down"></b></a>
 						<ul class="dropdown-menu">
-							<li><a href="typography.html">Beach</a></li>
-							<li><a href="components.html">History</a></li>
-							<li><a href="pricingbox.html">Trekking</a></li>
-							<li><a href="typography.html">Bikking</a></li>
-							<li><a href="components.html">Overland</a></li>
-							<li><a href="pricingbox.html">Golf</a></li>
+							<li><a href="beach">Beach</a></li>
+							<li><a href="#">History</a></li>
+							<li><a href="trekking">Trekking</a></li>
+							<li><a href="biking">Bikking</a></li>
+							<li><a href="#">Overland</a></li>
+							<li><a href="golf">Golf</a></li>
 						</ul>
 					</li>
 					<li><a href="province">Provinces</a></li>
