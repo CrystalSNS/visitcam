@@ -2,7 +2,10 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>travel_guide</title>
+		<title>Visit Cambodia</title>
+	<link rel="shortcut icon" type="imge/x-icon" href="img/logo/logo_sm.png"/> 
+
+	</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta name="description" content="" />
 	<meta name="author" content="http://bootstraptaste.com" />

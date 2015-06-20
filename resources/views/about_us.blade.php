@@ -34,7 +34,7 @@
 						<span class="overlay-img-thumb font-icon-plus"></span>
 						</a>
 						<!-- Thumb Image and Description -->
-						<img src="img/works/1.jpg" alt="Soung Sreynoch">
+						<img src="img/about_us/1.jpg" alt="Soung Sreynoch">
 						</li>
 						<!-- End Item Project -->
 						<!-- Item Project and Filter Name -->
@@ -45,7 +45,7 @@
 						<span class="overlay-img-thumb font-icon-plus"></span>
 						</a>
 						<!-- Thumb Image and Description -->
-						<img src="img/works/2.jpg" alt="Nhem Socheata">
+						<img src="img/about_us/2.jpg" alt="Nhem Socheata">
 						</li>
 						<!-- End Item Project -->
 						<!-- Item Project and Filter Name -->
@@ -56,7 +56,7 @@
 						<span class="overlay-img-thumb font-icon-plus"></span>
 						</a>
 						<!-- Thumb Image and Description -->
-						<img src="img/works/3.jpg" alt="Se Ren">
+						<img src="img/about_us/3.jpg" alt="Se Ren">
 						</li>
 						<!-- End Item Project -->
 						<!-- Item Project and Filter Name -->
@@ -67,7 +67,7 @@
 						<span class="overlay-img-thumb font-icon-plus"></span>
 						</a>
 						<!-- Thumb Image and Description -->
-						<img src="img/works/4.jpg" alt="Ly Lyta">
+						<img src="img/about_us/4.jpg" alt="Ly Lyta">
 						</li>
 						<!-- End Item Project -->
 					</ul>
