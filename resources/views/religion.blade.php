@@ -16,12 +16,13 @@
 	<section id="content">
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-10">
+			<div class="col-lg-12">
+				<h5>CAMBODIA PRE ANGKORIAN ERA AND ANGKORIAN ERA</h5>
 				<div>
 				<article>
-					<div class="col-lg-5">
+					<div class="col-lg-4">
 					<div class="post-image">
-						<h5>CAMBODIA PRE ANGKORIAN ERA AND ANGKORIAN ERA</h5>
+						
 				<img src="img/dummies/dummy-1.jpg" alt="" class="align-left" />
 			</div>
 				
@@ -34,9 +35,8 @@ Most of Cambodians tend to dress quite casually except for going to some formal 
 
 				</article>
 					<article>
-					<div class="col-lg-5">
+					<div class="col-lg-4">
 					<div class="post-image">
-					<h4>Geography and Weather</h4>
 				<img src="img/dummies/dummy-1.jpg" alt="" />
 			</div>
 				<p>
@@ -53,7 +53,7 @@ Most of Cambodians tend to dress quite casually except for going to some formal 
 						
 							<!-- end flexslider -->
 					
-			<div class="col-lg-2">
+			<div class="col-lg-3">
 				<aside class="right-sidebar">
 				<div class="widget">
 					<form class="form-search">

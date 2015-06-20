@@ -52,7 +52,7 @@
 							<li><a href="golf">Golf</a></li>
 						</ul>
 					</li>
-					<li><a href="province">Provinces</a></li>
+					<li><a href="provinces">Provinces</a></li>
 					<li><a href="travel_guide">Travel Guide</a></li>
 					<li><a href="about_us">About Us</a></li>
 					<li><a href="contact_us">Contact</a></li>

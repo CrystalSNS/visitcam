@@ -25,14 +25,14 @@ Route::get('traditional_costume', 'TraditionalController@index');
 Route::get('festival_event', 'FestivalController@index');
 Route::get('currency', 'CurrencyController@index');
 Route::get('transportation', 'TransportationController@index');
-Route::get('province', 'ProvinceController@index');
+Route::get('provinces', 'ProvincesController@index');
 //----------  Cheata
 Route::get('beach', 'TourBeachController@index');
 Route::get('trekking', 'TourTrekkingController@index');
 Route::get('biking', 'TourBikingController@index');
 Route::get('golf', 'TourGolfController@index');
-Route::get('province', 'ProvinceController@index');
-Route::get('province', 'PhnompenhController@index');
+Route::get('province_detail', 'ProvinceDetailController@index');
+
 
 
 Route::controllers([
