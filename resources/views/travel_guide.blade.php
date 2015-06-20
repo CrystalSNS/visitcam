@@ -24,7 +24,7 @@
 							<div class="post-heading">
 								<h3><a href="#">TRANDITIONAL COSTUME</a></h3>
 							</div>
-							<img src="img/dummies/blog/img1.jpg" alt="" />
+							<img src="img/travel_guide/in-daily-life-206-367-200.jpg" alt="" />
 						</div>
 						<p>
 							<h3>CAMBODIAN IN DAILY LIFE</h3>
@@ -90,4 +90,3 @@ Traditionally, women often wear a rose above the right ear and a phuong on the l
 
 </body>
 @include('static.footer')
-</html>

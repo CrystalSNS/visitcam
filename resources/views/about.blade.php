@@ -1,29 +1,5 @@
+@include('static.header')
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<title>Moderna - Bootstrap 3 flat corporate template</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="description" content="" />
-<meta name="author" content="http://bootstraptaste.com" />
-<!-- css -->
-<link href="css/bootstrap.min.css" rel="stylesheet" />
-<link href="css/fancybox/jquery.fancybox.css" rel="stylesheet">
-<link href="css/jcarousel.css" rel="stylesheet" />
-<link href="css/flexslider.css" rel="stylesheet" />
-<link href="css/style.css" rel="stylesheet" />
-
-
-<!-- Theme skin -->
-<link href="skins/default.css" rel="stylesheet" />
-
-<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-<!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-</head>
 <body>
 <div id="wrapper">
 	<!-- start header -->
@@ -45,7 +21,94 @@
 
 	</section>
 	<section class="callaction">
-	<div class="container">
+	<!-- Lists -->
+		<div class="row">
+			<!-- Unordered Lists -->
+			<div class="col-lg-3">
+				<h4>Unordered Lists</h4>
+				<ul>
+					<a class="navbar-brand"<img src="img/Province/Kampong_Chhnang/1.jpg"/></a>
+					<li>Consectetur adipiscing elit</li>
+					<li>Integer molestie lorem at massa</li>
+					<li>Facilisis in pretium nisl aliquet</li>
+					<li>Nulla volutpat aliquam velit
+					<ul>
+						<li>Phasellus iaculis neque</li>
+						<li>Purus sodales ultricies</li>
+						<li>Vestibulum laoreet porttitor sem</li>
+						<li>Ac tristique libero volutpat at</li>
+					</ul>
+					</li>
+					<li>Faucibus porta lacus fringilla vel</li>
+					<li>Aenean sit amet erat nunc</li>
+					<li>Eget porttitor lorem</li>
+				</ul>
+			</div>
+			<!-- Unstyled Lists -->
+			<div class="col-lg-3">
+				<h4>Unstyled Lists</h4>
+				<ul class="unstyled">
+					<li><a class="navbar-brand"<img src="img/Province/Kampong_Chhnang/1.jpg"/></a></li>
+					<li>Consectetur adipiscing elit</li>
+					<li>Integer molestie lorem at massa</li>
+					<li>Facilisis in pretium nisl aliquet</li>
+					<li>Nulla volutpat aliquam velit
+					<ul>
+						<li>Phasellus iaculis neque</li>
+						<li>Purus sodales ultricies</li>
+						<li>Vestibulum laoreet porttitor sem</li>
+						<li>Ac tristique libero volutpat at</li>
+					</ul>
+					</li>
+					<li>Faucibus porta lacus fringilla vel</li>
+					<li>Aenean sit amet erat nunc</li>
+					<li>Eget porttitor lorem</li>
+				</ul>
+			</div>
+			<!-- Ordered Lists -->
+			<div class="col-lg-3">
+				<h4>Ordered Lists</h4>
+				<ol>
+					<li><a class="navbar-brand"<img src="img/Province/Kampong_Chhnang/1.jpg"</a></li>
+					<li>Consectetur adipiscing elit</li>
+					<li>Integer molestie lorem at massa</li>
+					<li>Facilisis in pretium nisl aliquet</li>
+					<li>Nulla volutpat aliquam velit
+					<ol>
+						<li>Phasellus iaculis neque</li>
+						<li>Purus sodales ultricies</li>
+						<li>Vestibulum laoreet porttitor sem</li>
+						<li>Ac tristique libero volutpat at</li>
+					</ol>
+					</li>
+					<li>Faucibus porta lacus fringilla vel</li>
+					<li>Aenean sit amet erat nunc</li>
+					<li>Eget porttitor lorem</li>
+				</ol>
+			</div>
+			<!-- Unstyled Lists -->
+			<div class="col-lg-3">
+				<h4>Unstyled Lists</h4>
+				<ol class="unstyled">
+					<li><a class="navbar-brand"<img src="img/Province/Kampong_Chhnang/1.jpg"/></a></li>
+					<li>Consectetur adipiscing elit</li>
+					<li>Integer molestie lorem at massa</li>
+					<li>Facilisis in pretium nisl aliquet</li>
+					<li>Nulla volutpat aliquam velit
+					<ol>
+						<li>Phasellus iaculis neque</li>
+						<li>Purus sodales ultricies</li>
+						<li>Vestibulum laoreet porttitor sem</li>
+						<li>Ac tristique libero volutpat at</li>
+					</ol>
+					</li>
+					<li>Faucibus porta lacus fringilla vel</li>
+					<li>Aenean sit amet erat nunc</li>
+					<li>Eget porttitor lorem</li>
+				</ol>
+			</div>
+		</div>
+
 		
 	</section>
 	<section id="content">

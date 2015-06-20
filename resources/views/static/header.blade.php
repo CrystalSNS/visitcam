@@ -2,7 +2,10 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>travel_guide</title>
+		<title>Visit Cambodia</title>
+	<link rel="shortcut icon" type="imge/x-icon" href="img/logo/logo_sm.png"/> 
+
+	</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta name="description" content="" />
 	<meta name="author" content="http://bootstraptaste.com" />
@@ -35,7 +38,8 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="index.html"><img src="img/logo/logo.png"/></a>
+				<!-- <a class="navbar-brand" href="index.html"><img src="img/logo/logo.png"/></a> -->
+				<a  href="index.html"><img src="img/logo/logo.png"/></a>
 			</div>
 			<div class="navbar-collapse collapse ">
 				<ul class="nav navbar-nav">
@@ -43,15 +47,15 @@
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle " data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false">Tour <b class=" icon-angle-down"></b></a>
 						<ul class="dropdown-menu">
-							<li><a href="typography.html">Beach</a></li>
-							<li><a href="components.html">History</a></li>
-							<li><a href="pricingbox.html">Trekking</a></li>
-							<li><a href="typography.html">Bikking</a></li>
-							<li><a href="components.html">Overland</a></li>
-							<li><a href="pricingbox.html">Golf</a></li>
+							<li><a href="beach">Beach</a></li>
+							<li><a href="#">History</a></li>
+							<li><a href="trekking">Trekking</a></li>
+							<li><a href="biking">Bikking</a></li>
+							<li><a href="#">Overland</a></li>
+							<li><a href="golf">Golf</a></li>
 						</ul>
 					</li>
-					<li><a href="province">Provinces</a></li>
+					<li><a href="provinces">Provinces</a></li>
 					<li><a href="travel_guide">Travel Guide</a></li>
 					<li><a href="about_us">About Us</a></li>
 					<li><a href="contact_us">Contact</a></li>
