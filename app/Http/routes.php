@@ -26,6 +26,7 @@ Route::get('festival_event', 'FestivalController@index');
 Route::get('currency', 'CurrencyController@index');
 Route::get('transportation', 'TransportationController@index');
 Route::get('province', 'ProvinceController@index');
+Route::get('employee', 'EmployeeController@index');
 
 
 Route::controllers([
