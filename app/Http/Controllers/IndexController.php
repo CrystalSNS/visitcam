@@ -1,10 +1,10 @@
+
 <?php namespace App\Http\Controllers;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
 use Illuminate\Http\Request;
-use App\DataModel;
 
 class IndexController extends Controller {
 
@@ -15,9 +15,7 @@ class IndexController extends Controller {
 	 */
 	public function index()
 	{
-		//$pro = DataModel::getProvince();
-		 //return view('index')->with('province',$pro);
-		//return view('provinces');
+		return view('index');
 	}
 
 	/**
@@ -85,3 +83,4 @@ class IndexController extends Controller {
 	}
 
 }
+>>>>>>> 4a2abc3b1109f95191004820b707b3022cb7e4a1

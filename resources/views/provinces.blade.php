@@ -1,6 +1,4 @@
 
-
-
 @include('static.header')
 <body>
 <div id="wrapper">
@@ -65,3 +63,4 @@
 
 </body>
 @include('static.footer')
+
