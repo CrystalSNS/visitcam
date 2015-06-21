@@ -23,7 +23,7 @@
 					<div class="col-lg-4">
 					<div class="post-image">
 						
-				<img src="img/dummies/dummy-1.jpg" alt="" class="align-left" />
+				<img src="img/travel_guide/3-cnrp-siem reap.jpg" alt="" class="align-left" />
 			</div>
 				
 				<p>
@@ -37,7 +37,7 @@ Most of Cambodians tend to dress quite casually except for going to some formal 
 					<article>
 					<div class="col-lg-4">
 					<div class="post-image">
-				<img src="img/dummies/dummy-1.jpg" alt="" />
+				<img src="img/travel_guide/pchum-ben.JPG" alt="" />
 			</div>
 				<p>
 					<strong>CAMBODIA PRE ANGKORIAN ERA AND ANGKORIAN ERA</strong>

@@ -22,7 +22,7 @@
 							<!-- end flexslider -->
 							<div class="col-lg-6">
 				<h5>CAMBODIA PRE ANGKORIAN ERA AND ANGKORIAN ERA</h5>
-				<img src="img/dummies/dummy-1.jpg" alt="" class="align-left" />
+				<img src="img/travel_guide/Khmer-Traditional-Dance-Show-Siem-reap.jpg" alt="" class="align-left" />
 			
 				<p>
 					<strong>CAMBODIA PRE ANGKORIAN ERA AND ANGKORIAN ERA</strong>
@@ -36,7 +36,7 @@ Most of Cambodians tend to dress quite casually except for going to some formal 
 		
 			<div class="col-lg-6">
 				<h4>Geography and Weather</h4>
-				<img src="img/dummies/dummy-1.jpg" alt="" class="align-left" />
+				<img src="img/travel_guide/Khmer-Traditional-Wedding-Dress-10.jpg" alt="" class="align-left" />
 			
 			</div>
 						<div class="col-wr-6">

@@ -4,6 +4,7 @@ use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
 use Illuminate\Http\Request;
+use App\DataModel;
 
 class IndexController extends Controller {
 
@@ -14,7 +15,9 @@ class IndexController extends Controller {
 	 */
 	public function index()
 	{
-		return view('index');
+		//$pro = DataModel::getProvince();
+		 //return view('index')->with('province',$pro);
+		//return view('provinces');
 	}
 
 	/**

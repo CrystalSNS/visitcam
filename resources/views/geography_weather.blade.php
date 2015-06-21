@@ -23,10 +23,6 @@
 						
 							<!-- end flexslider -->
 							<div class="col-lg-6">
-				<h4> </h4>
-				<p>
-					<strong>Lorem ipsum dolor sit amet</strong>, consetetur sadipscing elitr, sed diam non mod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-				</p>
 				<p class="lead">
 					At vero eos et accusam et justo duo dolores et eabum.
 				</p>
@@ -41,7 +37,7 @@
 			</div>
 			<div class="col-lg-6">
 				<h4>Geography and Weather</h4>
-				<img src="img/dummies/dummy-1.jpg" alt="" class="align-left" />
+				<img src="img\travel_guide\geography and weather/cam.jpg" alt="" class="align-left" />
 			</div>
 		</div>
 
