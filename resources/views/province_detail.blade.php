@@ -1,3 +1,4 @@
+
 @include('static.header')
 <link href="css/beach.css" rel="stylesheet" />
 <link href="css/phnom_penh.css" rel="stylesheet" />
@@ -114,4 +115,5 @@
 </div>
 </body>
 <!-- end body -->
+
 @include('static.footer')

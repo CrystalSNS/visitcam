@@ -7,6 +7,11 @@
 		<div class="row">
 			<div class="col-lg-12">
 	<!-- Slider -->
+		<!-- @foreach($province as $p)
+			<h2>$p['name']</h2>
+		@endforeach -->
+
+
         <div id="main-slider" class="flexslider">
             <ul class="slides">
               <li>

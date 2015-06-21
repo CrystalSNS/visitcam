@@ -1,3 +1,4 @@
+
 <?php namespace App\Http\Controllers;
 
 use App\Http\Requests;
@@ -82,3 +83,4 @@ class IndexController extends Controller {
 	}
 
 }
+>>>>>>> 4a2abc3b1109f95191004820b707b3022cb7e4a1

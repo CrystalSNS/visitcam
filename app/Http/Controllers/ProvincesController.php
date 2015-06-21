@@ -1,10 +1,11 @@
+
 <?php namespace App\Http\Controllers;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
 use Illuminate\Http\Request;
-
+use App\DataModel;
 class ProvincesController extends Controller {
 
 	/**
@@ -14,7 +15,10 @@ class ProvincesController extends Controller {
 	 */
 	public function index()
 	{
-		return view('provinces');
+	     $pro = DataModel::getProvince();
+		 return view('provinces')->with('province',$pro);
+		 alert ($pro['pro_id']);
+		//return view('provinces');
 	}
 
 	/**
