@@ -39,11 +39,11 @@
 					<span class="icon-bar"></span>
 				</button>
 				<!-- <a class="navbar-brand" href="index.html"><img src="img/logo/logo.png"/></a> -->
-				<a  href="index.html"><img src="img/logo/logo.png"/></a>
+				<a  href="index"><img src="img/logo/logo.png"/></a>
 			</div>
 			<div class="navbar-collapse collapse ">
 				<ul class="nav navbar-nav">
-					<li class="active"><a href="index.html">Home</a></li>
+					<li class="active"><a href="index">Home</a></li>
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle " data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false">Tour <b class=" icon-angle-down"></b></a>
 						<ul class="dropdown-menu">

@@ -21,30 +21,30 @@
 						
 				<!-- end flexslider -->
 					<div class="col-lg-6">
-				<h4>Float image in paragraph</h4>
-				<img src="img/dummies/dummy-1.jpg" alt="" class="align-left" />
+				<h4>TAXI</h4>
+				<img src="img/travel_guide/c.jpg" alt="" class="align-left" />
 				<p>
 					 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non mod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et eabum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet
 				</p>
 			</div>
 					<div class="col-lg-6">
-				<h4>Float image in paragraph</h4>
-				<img src="img/dummies/dummy-1.jpg" alt="" class="align-left" />
+				<h4>BUS</h4>
+				<img src="img/travel_guide/bus-ibis.jpg" alt="" class="align-left" />
 				<p>
 					 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non mod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et eabum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet
 				</p>
 			</div>
 		
 				<div class="col-lg-6">
-				<h4>Float image in paragraph</h4>
-				<img src="img/dummies/dummy-1.jpg" alt="" class="align-left" />
+				<h4>BUS</h4>
+				<img src="img/travel_guide/WW1(1).jpg" alt="" class="align-left" />
 				<p>
 					 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non mod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et eabum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet
 				</p>
 			</div>
 			<div class="col-lg-6">
-				<h4>Float image in paragraph</h4>
-				<img src="img/dummies/dummy-1.jpg" alt="" class="align-left" />
+				<h4>CYCLO</h4>
+				<img src="img/travel_guide/cyclo.jpg" alt="" class="align-left" />
 				<p>
 					 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non mod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et eabum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet
 				</p>

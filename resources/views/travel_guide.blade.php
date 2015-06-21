@@ -24,7 +24,7 @@
 							<div class="post-heading">
 								<h3><a href="#">TRANDITIONAL COSTUME</a></h3>
 							</div>
-							<img src="img/travel_guide/in-daily-life-206-367-200.jpg" alt="" />
+							<img src="img/travel_guide/choulchhnam-game1.jpg" alt="" />
 						</div>
 						<p>
 							<h3>CAMBODIAN IN DAILY LIFE</h3>
@@ -42,7 +42,7 @@ Most of Cambodians tend to dress quite casually except for going to some formal 
 							<div id="post-slider" class="flexslider">
 								<ul class="slides">
 									<li>
-									<img src="img/dummies/blog/img2.jpg" alt="" />
+									<img src="img/travel_guide/140921082500Buddhist holiday.jpg" alt="" />
 									</li>
 								</ul>
 							</div>
