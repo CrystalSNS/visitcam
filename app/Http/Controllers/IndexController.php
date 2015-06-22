@@ -1,8 +1,7 @@
-
 <?php namespace App\Http\Controllers;
 
-use App\Http\Requests;
-use App\Http\Controllers\Controller;
+//use App\Http\Requests;
+//use App\Http\Controllers\Controller;
 
 use Illuminate\Http\Request;
 
@@ -83,4 +82,3 @@ class IndexController extends Controller {
 	}
 
 }
->>>>>>> 4a2abc3b1109f95191004820b707b3022cb7e4a1
