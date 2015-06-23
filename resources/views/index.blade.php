@@ -36,114 +36,69 @@
             </ul>
         </div>
 	<!-- end slider -->
-			</div>
-		</div>
-	</div>	
-	
-	
 
-	</section>
-	<section class="callaction">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12">
-				<div class="big-cta">
-					<div class="cta-text">
-						<h2><span>Moderna</span> HTML Business Template</h2>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	</section>
-	<section id="content">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12">
-				<div class="row">
-					<div class="col-lg-3">
-						<div class="box">
-							<div class="box-gray aligncenter">
-								<h4>Fully responsive</h4>
-								<div class="icon">
-								<i class="fa fa-desktop fa-3x"></i>
-								</div>
-								<p>
-								 Voluptatem accusantium doloremque laudantium sprea totam rem aperiam.
-								</p>
-									
-							</div>
-							<div class="box-bottom">
-								<a href="#">Learn more</a>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-3">
-						<div class="box">
-							<div class="box-gray aligncenter">
-								<h4>Modern Style</h4>
-								<div class="icon">
-								<i class="fa fa-pagelines fa-3x"></i>
-								</div>
-								<p>
-								 Voluptatem accusantium doloremque laudantium sprea totam rem aperiam.
-								</p>
-									
-							</div>
-							<div class="box-bottom">
-								<a href="#">Learn more</a>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-3">
-						<div class="box">
-							<div class="box-gray aligncenter">
-								<h4>Customizable</h4>
-								<div class="icon">
-								<i class="fa fa-edit fa-3x"></i>
-								</div>
-								<p>
-								 Voluptatem accusantium doloremque laudantium sprea totam rem aperiam.
-								</p>
-									
-							</div>
-							<div class="box-bottom">
-								<a href="#">Learn more</a>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-3">
-						<div class="box">
-							<div class="box-gray aligncenter">
-								<h4>Valid HTML5</h4>
-								<div class="icon">
-								<i class="fa fa-code fa-3x"></i>
-								</div>
-								<p>
-								 Voluptatem accusantium doloremque laudantium sprea totam rem aperiam.
-								</p>
-									
-							</div>
-							<div class="box-bottom">
-								<a href="#">Learn more</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- divider -->
-		<div class="row">
-			<div class="col-lg-12">
-				<div class="solidline">
-				</div>
-			</div>
-		</div>
 		<!-- end divider -->
 		<!-- Portfolio Projects -->
 		<div class="row">
 			<div class="col-lg-12">
-				<h4 class="heading">Recent Works</h4>
+				<h3 class="heading">Popular History Place</h3>
+				<div class="row">
+					<section id="projects">
+					<ul id="thumbs" class="portfolio">
+						<!-- Item Project and Filter Name -->
+						<li class="col-lg-3 design" data-id="id-0" data-type="web">
+						<div class="item-thumbs">
+						<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+						<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Work 1" href="img/Province/Siem_Reap/Angkor_Wat/Angkor_Wat.jpg">
+						<span class="overlay-img"></span>
+						<span class="overlay-img-thumb font-icon-plus"></span>
+						</a>
+						<!-- Thumb Image and Description -->
+						<img src="img/Province/Siem_Reap/Angkor_Wat/Angkor_Wat.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
+						</div>
+						</li>
+						<!-- End Item Project -->
+						<!-- Item Project and Filter Name -->
+						<li class="item-thumbs col-lg-3 design" data-id="id-1" data-type="icon">
+						<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+						<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Work 2" href="img/works/2.jpg">
+						<span class="overlay-img"></span>
+						<span class="overlay-img-thumb font-icon-plus"></span>
+						</a>
+						<!-- Thumb Image and Description -->
+						<img src="img/Province/Phnom_Penh/Royal_Palace/Royal_Place.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
+						</li>
+						<!-- End Item Project -->
+						<!-- Item Project and Filter Name -->
+						<li class="item-thumbs col-lg-3 photography" data-id="id-2" data-type="illustrator">
+						<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+						<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Work 3" href="img/works/3.jpg">
+						<span class="overlay-img"></span>
+						<span class="overlay-img-thumb font-icon-plus"></span>
+						</a>
+						<!-- Thumb Image and Description -->
+						<img src="img\Province\Prey_Veng\Preah_Vihear/Preah_Vihear_Temple.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
+						</li>
+						<!-- End Item Project -->
+						<!-- Item Project and Filter Name -->
+						<li class="item-thumbs col-lg-3 photography" data-id="id-2" data-type="illustrator">
+						<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+						<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Work 4" href="img/works/4.jpg">
+						<span class="overlay-img"></span>
+						<span class="overlay-img-thumb font-icon-plus"></span>
+						</a>
+						<!-- Thumb Image and Description -->
+						<img src="img\Province\Oddar_Meanchey\Oddar_Meanchey/Oddar Meanchey.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
+						</li>
+						<!-- End Item Project -->
+					</ul>
+					</section>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-12">
+				<h3 class="heading">Beautiful Beach in Cambodia</h3>
 				<div class="row">
 					<section id="projects">
 					<ul id="thumbs" class="portfolio">
@@ -156,7 +111,7 @@
 						<span class="overlay-img-thumb font-icon-plus"></span>
 						</a>
 						<!-- Thumb Image and Description -->
-						<img src="img/works/1.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
+						<img src="img/Province/Kep/Kep_Sea/kep-province.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
 						</div>
 						</li>
 						<!-- End Item Project -->
@@ -168,7 +123,7 @@
 						<span class="overlay-img-thumb font-icon-plus"></span>
 						</a>
 						<!-- Thumb Image and Description -->
-						<img src="img/works/2.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
+						<img src="img/Province/Kep/Kep_Sea/Kep_Sea.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
 						</li>
 						<!-- End Item Project -->
 						<!-- Item Project and Filter Name -->
@@ -179,7 +134,7 @@
 						<span class="overlay-img-thumb font-icon-plus"></span>
 						</a>
 						<!-- Thumb Image and Description -->
-						<img src="img/works/3.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
+						<img src="img/Province/Pailin/Pailin/Pailin.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
 						</li>
 						<!-- End Item Project -->
 						<!-- Item Project and Filter Name -->
@@ -190,7 +145,7 @@
 						<span class="overlay-img-thumb font-icon-plus"></span>
 						</a>
 						<!-- Thumb Image and Description -->
-						<img src="img/works/4.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
+						<img src="img/Province/Preah_Sihanouk/Preah_Sihanouk_Sea/Sunsets_Kampong_Saom.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
 						</li>
 						<!-- End Item Project -->
 					</ul>
@@ -198,6 +153,65 @@
 				</div>
 			</div>
 		</div>
+		<div class="row">
+			<div class="col-lg-12">
+				<h3 class="heading">Popular Overland Province</h3>
+				<div class="row">
+					<section id="projects">
+					<ul id="thumbs" class="portfolio">
+						<!-- Item Project and Filter Name -->
+						<li class="col-lg-3 design" data-id="id-0" data-type="web">
+						<div class="item-thumbs">
+						<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+						<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Work 1" href="img/works/1.jpg">
+						<span class="overlay-img"></span>
+						<span class="overlay-img-thumb font-icon-plus"></span>
+						</a>
+						<!-- Thumb Image and Description -->
+						<img src="img/Province/Stung_Treng/preah-nith-mith-stung-treng.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
+						</div>
+						</li>
+						<!-- End Item Project -->
+						<!-- Item Project and Filter Name -->
+						<li class="item-thumbs col-lg-3 design" data-id="id-1" data-type="icon">
+						<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+						<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Work 2" href="img/works/2.jpg">
+						<span class="overlay-img"></span>
+						<span class="overlay-img-thumb font-icon-plus"></span>
+						</a>
+						<!-- Thumb Image and Description -->
+						<img src="img/Province/Rattanakiri/ptas_jun_jeat/Rattanakiri_Home.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
+						</li>
+						<!-- End Item Project -->
+						<!-- Item Project and Filter Name -->
+						<li class="item-thumbs col-lg-3 photography" data-id="id-2" data-type="illustrator">
+						<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+						<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Work 3" href="img/works/3.jpg">
+						<span class="overlay-img"></span>
+						<span class="overlay-img-thumb font-icon-plus"></span>
+						</a>
+						<!-- Thumb Image and Description -->
+						<img src="img/Province/Kampot/bokor/bokor.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
+						</li>
+						<!-- End Item Project -->
+						<!-- Item Project and Filter Name -->
+						<li class="item-thumbs col-lg-3 photography" data-id="id-2" data-type="illustrator">
+						<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+						<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Work 4" href="img/works/4.jpg">
+						<span class="overlay-img"></span>
+						<span class="overlay-img-thumb font-icon-plus"></span>
+						</a>
+						<!-- Thumb Image and Description -->
+						<img src="img/Province/Battambong/seekb.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
+						</li>
+						<!-- End Item Project -->
+					</ul>
+					</section>
+				</div>
+			</div>
+		</div>
+
+
 
 	</div>
 	</section>
