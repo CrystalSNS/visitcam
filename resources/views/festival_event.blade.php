@@ -22,8 +22,26 @@
 						
 				<!-- end flexslider -->
 					<div class="col-lg-4">
+						<div class="post-slider">
+						
+
 				<h4>Float image in paragraph</h4>
-				<img src="img/travel_guide/7744.jpg" alt="" class="align-left" />
+				<div id="post-slider" class="flexslider">
+								<ul class="slides">
+									<li>
+									<img src="img/travel_guide/7744.jpg" alt=""  />
+									</li>
+									<li>
+									<img src="img/travel_guide/taprum_24741374.jpg" alt="" class="align-left" />
+									</li>
+									<li>
+									<img src="img/dummies/blog/img3.jpg" alt=""/>
+									</li>
+								</ul>
+							</div>
+						</div>
+
+				
 				<p>
 					 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non mod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et eabum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet
 				</p>
@@ -70,27 +88,8 @@
 
 				
 			</article>
-			<div class="col-lg-3">
-				<aside class="right-sidebar">
-				<div class="widget">
-					<form class="form-search">
-						<input class="form-control" type="text" placeholder="Search..">
-					</form>
-				</div>
-				<div class="widget">
-					<h5 class="widgetheading">Travel Guide</h5>
-						<ul class="cat">
-						<li><i class="icon-angle-right"></i><a href="geography_weather">Geography and Weather</a></li>
-						<li><i class="icon-angle-right"></i><a href="history">History</a></li>
-						<li><i class="icon-angle-right"></i><a href="religion">Religion</a></li>
-						<li><i class="icon-angle-right"></i><a href="traditional_costume">Traditional Costume</a></li>
-						<li><i class="icon-angle-right"></i><a href="festival_event">Festival and Event</a></li>
-						<li><i class="icon-angle-right"></i><a href="currency">Currency</a></li>
-						<li><i class="icon-angle-right"></i><a href="transportation">Transportation</a></li>
-					</ul>
-				</div>
+			@include('static.menu_travel')
 				
-				</aside>
 			</div>
 		</div>
 	</div>
