@@ -4,7 +4,7 @@ use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
 use Illuminate\Http\Request;
-
+use App\TravelguidesModel;
 class TravelController extends Controller {
 
 	/**
@@ -14,7 +14,8 @@ class TravelController extends Controller {
 	 */
 	public function index()
 	{
-		return view ('travel_guide');
+		$travel = TravelguidesModel::getTravelguides();
+		return view ('travel_guide')->with('travel_guide1',$travel);
 	}
 
 	/**
