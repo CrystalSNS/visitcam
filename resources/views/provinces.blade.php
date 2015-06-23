@@ -1,4 +1,3 @@
-
 @include('static.header')
 <body>
 <div id="wrapper">
@@ -32,7 +31,7 @@
           <article>
             <div class="col-lg-3">
             <div class="post-image">
-              <img src="img/Province/Siem_Reap/1.jpg" alt=""/>
+              <img src={{$pros['pro_img_url']}} alt=""/>
 
             </div>
             <h4>{{$pros['pro_name']}}</h4>

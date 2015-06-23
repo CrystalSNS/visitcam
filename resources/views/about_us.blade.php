@@ -96,7 +96,7 @@
 		</div>
 	</div>
 	</section>
-		
+	<h4>Test</h4>	
 	</body>
 	@include('static.footer')
 

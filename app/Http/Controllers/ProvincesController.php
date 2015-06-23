@@ -16,8 +16,7 @@ class ProvincesController extends Controller {
 	{
 	     $pro = DataModel::getProvince();
 		 return view('provinces')->with('province',$pro);
-		 alert ($pro['pro_id']);
-		//return view('provinces');
+		 
 	}
 
 	/**
