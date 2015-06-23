@@ -10,4 +10,5 @@ class TravelguidesModel extends Model {
 		return TravelguidesModel::orderBy('trav_id')->get();
 	}
 
+
 }
