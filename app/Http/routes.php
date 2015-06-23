@@ -18,7 +18,7 @@ Route::get('index', 'IndexController@index');
 Route::get('contact_us', 'ContactController@index');
 Route::get('about_us', 'AboutController@index');
 Route::get('about', 'ContactController@store');
-Route::get('travel_guide', 'TravelController@index');
+Route::get('travel_guide', 'TraditionalController@index');
 Route::get('geography_weather', 'GeographyController@index');
 Route::get('history', 'HistoryController@index');
 Route::get('religion', 'ReligionController@index');
