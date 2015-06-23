@@ -22,8 +22,26 @@
 						
 				<!-- end flexslider -->
 					<div class="col-lg-4">
+						<div class="post-slider">
+						
+
 				<h4>Float image in paragraph</h4>
-				<img src="img/travel_guide/7744.jpg" alt="" class="align-left" />
+				<div id="post-slider" class="flexslider">
+								<ul class="slides">
+									<li>
+									<img src="img/travel_guide/7744.jpg" alt=""  />
+									</li>
+									<li>
+									<img src="img/travel_guide/taprum_24741374.jpg" alt="" class="align-left" />
+									</li>
+									<li>
+									<img src="img/dummies/blog/img3.jpg" alt=""/>
+									</li>
+								</ul>
+							</div>
+						</div>
+
+				
 				<p>
 					 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non mod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et eabum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet
 				</p>
