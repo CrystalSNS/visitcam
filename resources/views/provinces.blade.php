@@ -1,5 +1,6 @@
 @include('static.header')
 <body>
+
 <div id="wrapper">
   <section id="inner-headline">
   <div class="container">
@@ -13,53 +14,29 @@
     </div>
   </div>
   </section>
+
   <section id="content">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12">
-          <article>
-          
-        <h1>ALL PROVINCES</h1>
-        </div>
-
-        </article>
-        <div>
-        
-
-      
-         @foreach($province as $pros)
-          <article>
-            <div class="col-lg-3">
-            <div class="post-image">
-              <img src={{$pros['pro_img_url']}} alt=""/>
-
-            </div>
-            <h4>{{$pros['pro_name']}}</h4>
-          <p>
-            {{$pros['pro_desc']}}
-          </p>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 province-div">
+          <h1>ALL PROVINCES</h1>
+          <div>
+            @foreach($province as $pros)
+              <article>
+                <div class="col-lg-3">
+                    <div class="post-image"><img src={{$pros['pro_img_url']}} alt=""/></div>
+                    <h4><a>{{$pros['pro_name']}}</a></h4>
+                  <p class="text_pro">{{$pros['pro_desc']}}</p>
+                </div>
+              </article>
+            @endforeach
           </div>
-
-          </article>
-        @endforeach 
-       
-        </div>
-    
-        <!-- end flexslider -->
-        
+         </div>
+      </div>
     </div>
-    
-
-
-        
-      </article>
-    
-    </div>
-  </div>
   </section>
-  
-</div>
 
+</div><!--end div wrapper-->
 </body>
 @include('static.footer')
 
