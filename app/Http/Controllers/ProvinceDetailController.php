@@ -1,11 +1,10 @@
-
 <?php namespace App\Http\Controllers;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
 use Illuminate\Http\Request;
-
+use App\Province_DetailModel;
 class ProvinceDetailController extends Controller {
 
 	/**
@@ -15,7 +14,9 @@ class ProvinceDetailController extends Controller {
 	 */
 	public function index()
 	{
-		return view ('province_detail');
+		$pro_detail = Province_DetailModel::getPro_detail();
+		return view('province_detail')->with('provincedetail',$pro_detail);
+	
 	}
 
 	/**

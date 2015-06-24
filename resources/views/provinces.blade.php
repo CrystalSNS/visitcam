@@ -20,6 +20,12 @@
           <article>
           
         <h1>ALL PROVINCES</h1>
+        <ul class="portfolio-categ filter">
+          <li class="all active"><a href="#">All</a></li>
+          <li class="web"><a href="#" title="">Web design</a></li>
+          <li class="icon"><a href="#" title="">Icons</a></li>
+          <li class="graphic"><a href="#" title="">Graphic design</a></li>
+        </ul>
         </div>
 
         </article>
