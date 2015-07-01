@@ -4,6 +4,7 @@ use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
 use Illuminate\Http\Request;
+use App\GeographiesModel;
 
 class GeographyController extends Controller {
 
@@ -14,9 +15,10 @@ class GeographyController extends Controller {
 	 */
 	public function index()
 	{
-		return view ('geography_weather');
+		$Geography = GeographiesModel::getGeography();
+		return view ('geography_weather')->with('geographies',$Geography);
 	}
-
+	
 	/**
 	 * Show the form for creating a new resource.
 	 *

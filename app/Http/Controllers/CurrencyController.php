@@ -4,6 +4,7 @@ use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
 use Illuminate\Http\Request;
+use App\CurrenciesModel;
 
 class CurrencyController extends Controller {
 
@@ -14,8 +15,11 @@ class CurrencyController extends Controller {
 	 */
 	public function index()
 	{
-		return view('currency');
+		$Curren = CurrenciesModel::getCurrency();
+		return view('currency')->with('currencies',$Curren);
 	}
+	
+	
 
 	/**
 	 * Show the form for creating a new resource.
