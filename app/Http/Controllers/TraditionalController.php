@@ -4,6 +4,7 @@ use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
 use Illuminate\Http\Request;
+use App\Traditional_customesModel;
 
 class TraditionalController extends Controller {
 
@@ -14,8 +15,11 @@ class TraditionalController extends Controller {
 	 */
 	public function index()
 	{
-		return view('traditional_costume');
+		$Traditional = Traditional_customesModel::getTraditional();
+		return view('traditional_costume')->with('traditionals',$Traditional);
+		 
 	}
+	
 
 	/**
 	 * Show the form for creating a new resource.
