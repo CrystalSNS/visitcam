@@ -1,4 +1,3 @@
-
 <?php
 
 /*
@@ -36,6 +35,7 @@ Route::get('trekking', 'TourTrekkingController@index');
 Route::get('biking', 'TourBikingController@index');
 Route::get('golf', 'TourGolfController@index');
 Route::get('province_{id}', 'ProvinceDetailController@index');
+Route::get('eventImg_{id}', 'EventImageController@index');
 
 
 

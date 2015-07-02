@@ -14,7 +14,6 @@
   </div>
   </section>
 
-
   <section id="content">
     <div class="container">
       <div class="row">
@@ -39,4 +38,3 @@
 </div><!--end div wrapper-->
 </body>
 @include('static.footer')
-
