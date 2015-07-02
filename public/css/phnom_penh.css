@@ -2,60 +2,20 @@ ol, ul {
 list-style: none;
 }
 
-#content{
-	width: 100%;
-	height: 900px;
-	position: relative;
-	background-color: #FFF;
-}
-
-#menudetail{
-	width: 22%;
-	height: 35%;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	float: left;
-	background-color: #f6f6f6;
-	box-shadow: 2px 3px 3px rgba(212,212,212,0.64);
-}
-
-#menudetail h2{width:100%;height:57px;border:1px solid #e3e2de;border-bottom:none;font-size:20px;line-height:57px;text-indent:6px;text-transform:uppercase;float:left;}
-#menudetail ul{width:260px;float:left;margin-left: -15%;}
-#menudetail ul li{width:258px;height:34px;float:left;}
-#menudetail ul li a{width:258px;height:34px;color:#555;line-height:34px;font-size:16px;border:1px solid #e3e2de;background:#fff;float:left;}
-#menudetail ul li a:hover{background:#87ad22;border:1px solid #87ad22;color:#fff;}
-#menudetail ul li a:hover strong{height:36px;width:11px;background:url(../Images/img/sprite.png) 0 -246px no-repeat;margin:-1px -11px 0 0;float:right;}
-#menudetail ul li.curent a{background:#87ad22;border:1px solid #87ad22;color:#fff;}
-#menudetail ul li.curent a strong{height:36px;width:11px;background:url(../Images/img/sprite.png) 0 -246px no-repeat;margin:-1px -11px 0 0;float:right;}
-#menudetail ul li a span.nav{width:6px;height:7px;margin:14px 10px 0 10px;background:url(../Images/img/sprite.png) -170px -448px no-repeat;float:left;}
-#menudetail ul li a:hover span.nav{background:url(../Images/img/sprite.png) -170px -456px no-repeat;}
-#menudetail ul li.curent a span.nav{background:url(../Images/img/sprite.png) -170px -456px no-repeat;}
-#menudetail ul li a span.car{width:18px;height:12px;margin:12px 5px 0 5px;background:url(../Images/img/sprite.png) -106px -952px no-repeat;float:left;}
-#menudetail ul li a:hover span.car{background:url(../Images/img/sprite.png) -106px -974px no-repeat;}
-#menudetail ul li.curent a span.car{background:url(../Images/img/sprite.png) -106px -974px no-repeat;}
-#menudetail ul li a span.train{width:12px;height:19px;margin:8px 5px 0 5px;background:url(../Images/img/sprite.png) -137px -949px no-repeat;float:left;}
-#menudetail ul li a:hover span.train{background:url(../Images/img/sprite.png) -137px -971px no-repeat;}
-#menudetail ul li.curent a span.train{background:url(../Images/img/sprite.png) -137px -971px no-repeat;}
-#menudetail ul li a span.plane{width:19px;height:12px;margin:12px 5px 0 5px;background:url(../Images/img/sprite.png) -161px -952px no-repeat;float:left;}
-#menudetail ul li a:hover span.plane{background:url(../Images/img/sprite.png) -161px -974px no-repeat;}
-#menudetail ul li.curent a span.plane{background:url(../Images/img/sprite.png) -161px -974px no-repeat;}
-#menudetail ul li a span.ship{width:18px;height:11px;margin:12px 5px 0 5px;background:url(../Images/img/sprite.png) -189px -952px no-repeat;float:left;}
-#menudetail ul li a:hover span.ship{background:url(../Images/img/sprite.png) -189px -974px no-repeat;}
-#menudetail ul li.curent a span.cyclinh{background:url(../Images/img/sprite.png) -273px -968px no-repeat;}
 
 #menudetail ul li{
 	margin-left: 45px;
 
 }
 
-.article {
-    width: 70%;
+#para {
+    width: 100%;
     margin: 20px;
     margin-right: 0px;
     padding: 20px;
     background-color: #f6f6f6;
     box-shadow: 2px 3px 3px rgba(212,212,212,0.64);
-    float: right;
+    float: left;
 }
 
 #quick {
@@ -69,7 +29,7 @@ list-style: none;
 }
 
 #quick_fact {
-    width: 360px;
+    width: 380px;
     float: right;
 }
 
@@ -96,4 +56,14 @@ list-style: none;
 #p_text{
 	
 	position: relative;
+}
+
+.article{
+	width: 70%;
+	margin: 20px;
+	margin-right: 0px;
+	padding: 20px;
+	background-color:#f6f6f6;
+	box-shadow: 2px 3px 3px rgba(212,212,212,0.64);
+	float: right;
 }

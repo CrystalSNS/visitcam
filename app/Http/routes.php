@@ -26,7 +26,9 @@ Route::get('traditional_costume', 'TraditionalController@index');
 Route::get('festival_event', 'FestivalController@index');
 Route::get('currency', 'CurrencyController@index');
 Route::get('transportation', 'TransportationController@index');
+//----------Lyta
 Route::get('provinces', 'ProvincesController@index');
+Route::get('province_detail', 'ProvinceDetailController@index');
 //----------  Cheata
 Route::get('beach', 'TourBeachController@index');
 Route::get('trekking', 'TourTrekkingController@index');
