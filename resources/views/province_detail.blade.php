@@ -7,8 +7,8 @@
 			<div class="row">
 				<div class="col-lg-12">
 					<ul class="breadcrumb">
-						<li><a href="#"><i class="fa fa-home"></i></a><i class="icon-angle-right"></i></li>
-						<li class="active">Phnom Penh</li>
+						<li><a href="provinces"><i class="fa fa-home"></i></a><i class="icon-angle-right"></i></li>
+						<li class="active">{{$provincedetail[0]['pro_name']}}</li>
 					</ul>
 				</div>
 			</div>
@@ -51,6 +51,7 @@
 										<li>
 											<span class="nav">  {{$prodetail['ov_condition']}}</span>
 										</li>
+									</ul>
 								</div>
 								<<p>{{$prodetail['ov_bottom_text']}}</p>
 							</div>
@@ -65,13 +66,14 @@
 							</form>
 						</div>
 						<div class="widget">
-							<h5 class="widgetheading"><h3>Phnom Penh</h3></h5>
+							<h5 class="widgetheading"><h3>{{$prodetail['pro_name']}}</h3></h5>
 							<ul class="cat">
-								<li><i class="icon-angle-right"></i><a href="province_detail">Phnom Penh Overview</a></li>
-								<li><i class="icon-angle-right"></i><a href="history">Phnom Penh Photos</a></li>
-								<li><i class="icon-angle-right"></i><a href="religion">Phnom Penh Map</a></li>
-								<li><i class="icon-angle-right"></i><a href="traditional_costume">Phnom Penh Tours</a></li>
-								<li><i class="icon-angle-right"></i><a href="festival_event">Phnom Penh Hotels</a></li>
+								<li><i class="icon-angle-right"></i><a href="province_detail">{{$prodetail['pro_name']}} Overview</a></li>
+								<li><i class="icon-angle-right"></i><a href="province_imgs_{{$prodetail['province_id']}}">{{$prodetail['pro_name']}} Photos</a></li>
+								<li><i class="icon-angle-right"></i><a href="province_map">{{$prodetail['pro_name']}} Map</a></li>
+								<li><i class="icon-angle-right"></i><a href="traditional_costume">{{$prodetail['pro_name']}} Tours</a></li>
+								<li><i class="icon-angle-right"></i><a href="festival_event">{{$prodetail['pro_name']}} Hotels</a></li>
+
 							</ul>
 						</div>
 					</aside>

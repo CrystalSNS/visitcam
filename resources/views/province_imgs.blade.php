@@ -8,7 +8,7 @@
 		<div class="row">
 			<div class="col-lg-12">
 				<ul class="breadcrumb">
-					<li><a href="#"><i class="fa fa-home"></i></a><i class="icon-angle-right"></i></li>
+					<li><a href="province_{{$provinceimgs[0]['province_id']}}"><i class="fa fa-home"></i></a><i class="icon-angle-right"></i></li>
 					<li class="active">Phnom Penh</li>
 				</ul>
 			</div>
