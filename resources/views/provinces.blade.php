@@ -38,4 +38,4 @@
 
 </div><!--end div wrapper-->
 </body>
-@include('static.footer'
+@include('static.footer')
