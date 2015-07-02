@@ -8,7 +8,7 @@
 			<div class="col-lg-12">
 				<ul class="breadcrumb">
 					<li><a href="#"><i class="fa fa-home"></i></a><i class="icon-angle-right"></i></li>
-					<li class="active">Phnom Penh Overview</li>
+					<li class="active">Phnom Penh</li>
 				</ul>
 			</div>
 		</div>

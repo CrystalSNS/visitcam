@@ -6,9 +6,9 @@ class Province_detailModel extends Model {
 
 	//
 	protected $table='prooverviews';
-	public static function getPro_detail()
+	public static function getPro_detail($id)
 	{
-		return Province_detailModel::orderBy('ov_id')->get();
+		return Province_detailModel::where ('province_id', '=', $id)->get();
 	}
 
 
