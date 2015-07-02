@@ -82,3 +82,4 @@
 </div>
 </body>
 @include('static.footer')
+

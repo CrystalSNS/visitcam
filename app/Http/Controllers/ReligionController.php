@@ -4,6 +4,7 @@ use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
 use Illuminate\Http\Request;
+use App\ReligionsModel;
 
 class ReligionController extends Controller {
 
@@ -14,8 +15,10 @@ class ReligionController extends Controller {
 	 */
 	public function index()
 	{
-		return view('religion');
+		$Religion = ReligionsModel::getReligion();
+		return view('religion')->with('religions',$Religion);
 	}
+	
 
 	/**
 	 * Show the form for creating a new resource.

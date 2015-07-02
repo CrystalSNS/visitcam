@@ -4,18 +4,18 @@ use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
 use Illuminate\Http\Request;
-use App\Province_DetailModel;
-class ProvinceDetailController extends Controller {
+use App\Province_imgsModel;
+class ProvincesImgsController extends Controller {
 
 	/**
 	 * Display a listing of the resource.
 	 *
 	 * @return Response
 	 */
-	public function index($id)
+	public function index()
 	{
-		$pro_detail = Province_DetailModel::getPro_detail($id);
-		return view('province_detail')->with('provincedetail',$pro_detail);
+		$pro_imgs = Province_imgsModel::getPro_imgs();
+		return view('province_imgs')->with('provinceimgs',$pro_imgs);
 	
 	}
 

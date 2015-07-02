@@ -4,6 +4,7 @@ use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
 use Illuminate\Http\Request;
+use App\TransportatioinsModel;
 
 class TransportationController extends Controller {
 
@@ -14,8 +15,10 @@ class TransportationController extends Controller {
 	 */
 	public function index()
 	{
-		return view('transportation');
+		$Transportation = TransportatioinsModel::getTransportation();
+		return view('transportation')->with('transportations',$Transportation);
 	}
+	
 
 	/**
 	 * Show the form for creating a new resource.

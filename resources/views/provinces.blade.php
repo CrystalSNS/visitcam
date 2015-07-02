@@ -1,6 +1,5 @@
 @include('static.header')
 <body>
-
 <div id="wrapper">
   <section id="inner-headline">
   <div class="container">
@@ -25,7 +24,7 @@
               <article>
                 <div class="col-lg-3">
                     <div class="post-image"><img src={{$pros['pro_img_url']}} alt=""/></div>
-                    <h4><a>{{$pros['pro_name']}}</a></h4>
+                    <h4><a href="province_{{$pros['pro_id']}}">{{$pros['pro_name']}}</a></h4>
                   <p class="text_pro">{{$pros['pro_desc']}}</p>
                 </div>
               </article>
@@ -39,4 +38,3 @@
 </div><!--end div wrapper-->
 </body>
 @include('static.footer')
-

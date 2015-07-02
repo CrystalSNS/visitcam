@@ -4,6 +4,8 @@ use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
 use Illuminate\Http\Request;
+use App\EventsModel;
+use App\Festival_imgsModel;
 
 class FestivalController extends Controller {
 
@@ -14,7 +16,8 @@ class FestivalController extends Controller {
 	 */
 	public function index()
 	{
-		return view('festival_event');
+		$evt = EventsModel::getEevents();
+		 return view('festival_event')->with('events',$evt);
 	}
 
 	/**

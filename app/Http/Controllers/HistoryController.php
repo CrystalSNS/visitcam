@@ -4,6 +4,7 @@ use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
 use Illuminate\Http\Request;
+use App\HistoriesModel;
 
 class HistoryController extends Controller {
 
@@ -14,8 +15,10 @@ class HistoryController extends Controller {
 	 */
 	public function index()
 	{
-		return view('history');
+		$History = HistoriesModel::getHistory();
+		return view('history')->with('histories',$History);
 	}
+	
 
 	/**
 	 * Show the form for creating a new resource.
