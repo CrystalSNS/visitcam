@@ -27,7 +27,7 @@ Route::get('currency', 'CurrencyController@index');
 Route::get('transportation', 'TransportationController@index');
 //----------Lyta
 Route::get('provinces', 'ProvincesController@index');
-Route::get('province_imgs', 'ProvincesImgsController@index');
+Route::get('province_imgs_{id}', 'ProvincesImgsController@index');
 Route::get('province_map', 'ProvinceMapController@index');
 //----------  Cheata
 Route::get('beach', 'TourBeachController@index');

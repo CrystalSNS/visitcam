@@ -12,9 +12,9 @@ class ProvincesImgsController extends Controller {
 	 *
 	 * @return Response
 	 */
-	public function index()
+	public function index($id)
 	{
-		$pro_imgs = Province_imgsModel::getPro_imgs();
+		$pro_imgs = Province_imgsModel::getPro_imgs($id);
 		return view('province_imgs')->with('provinceimgs',$pro_imgs);
 	
 	}
