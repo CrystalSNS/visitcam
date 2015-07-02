@@ -17,6 +17,7 @@ return array(
     'CreateProvinceDetailModelsTable' => $baseDir . '/database/migrations/2015_06_23_192221_create_province__detail_models_table.php',
     'CreateProvinceHotelsModelsTable' => $baseDir . '/database/migrations/2015_06_22_005954_create_province_hotels_models_table.php',
     'CreateProvinceImgsModelsTable' => $baseDir . '/database/migrations/2015_06_22_010002_create_province_imgs_models_table.php',
+    'CreateProvinceMapModelsTable' => $baseDir . '/database/migrations/2015_07_01_214359_create_province_map_models_table.php',
     'CreateProvinceModelsTable' => $baseDir . '/database/migrations/2015_06_21_110349_create_province_models_table.php',
     'CreateProvinceOverviewsModelsTable' => $baseDir . '/database/migrations/2015_06_22_010009_create_province_overviews_models_table.php',
     'CreateProvincesModelsTable' => $baseDir . '/database/migrations/2015_06_22_010015_create_provinces_models_table.php',

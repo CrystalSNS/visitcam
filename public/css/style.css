@@ -1999,4 +1999,18 @@ article img.pull-right, article .align-right{
 	text-decoration: none;
 }
 
-
+/*pro_imgs*/
+.jLastic{
+		position:relative;
+		margin-left: 4%;
+		overflow:visible;
+	}
+.article{
+	width: 70%;
+	margin: 20px;
+	margin-right: 0px;
+	padding: 20px;
+	background-color:#f6f6f6;
+	box-shadow: 1px 1px 1px rgba(212,212,212,0.64);
+	float: right;
+}

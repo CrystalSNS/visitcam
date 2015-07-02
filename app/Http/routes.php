@@ -1,4 +1,3 @@
-
 <?php
 
 /*
@@ -28,13 +27,14 @@ Route::get('currency', 'CurrencyController@index');
 Route::get('transportation', 'TransportationController@index');
 //----------Lyta
 Route::get('provinces', 'ProvincesController@index');
-Route::get('province_detail', 'ProvinceDetailController@index');
+Route::get('province_imgs', 'ProvincesImgsController@index');
+Route::get('province_map', 'ProvinceMapController@index');
 //----------  Cheata
 Route::get('beach', 'TourBeachController@index');
 Route::get('trekking', 'TourTrekkingController@index');
 Route::get('biking', 'TourBikingController@index');
 Route::get('golf', 'TourGolfController@index');
-Route::get('province_detail', 'ProvinceDetailController@index');
+Route::get('province_{id}', 'ProvinceDetailController@index');
 Route::get('eventImg_{id}', 'EventImageController@index');
 
 
