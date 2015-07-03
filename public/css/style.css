@@ -322,7 +322,7 @@ ul.nav li.dropdown a {
 }
 
 .flex-caption {background:none; -ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endColorstr=#4C000000); filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endColorstr=#4C000000); zoom: 1;}
-.flex-caption { bottom: 35px; background-color: rgba(0, 0, 0, 0.8); color: #fff; margin: 0; padding: 25px 25px 25px 30px; position: absolute; right: 0; width: 295px;}
+.flex-caption {opacity: 0.7; bottom: 35px; background-color: #87ad22; color: #fff; margin: 0; padding: 25px 25px 25px 30px; position: absolute; right: 0; width: 295px;}
 .flex-caption h3 {color: #fff; letter-spacing: 1px; margin-bottom: 8px; text-transform: uppercase;}
 .flex-caption p {margin: 0 0 15px;}
 
@@ -2062,3 +2062,33 @@ h1, h2, h3, h4, h5, h6,p,a{
 
 }
 
+#ren_img{
+
+	margin-left: 1%;
+	margin-top: -2%;
+}
+
+#lyta_img{
+	margin-left: 1%;
+	margin-top: -2%;
+}
+
+#cheata_img{
+	margin-left: -16%;
+	margin-top: -2%;
+}
+
+
+#noch_img{
+	margin-top: -1%;
+}
+
+.item-thumbs .hover-wrap .overlay-img-thumb {
+	background: #87ad22 !important;
+}
+
+
+.scrollup {
+
+	background: #87ad22 !important;
+}
