@@ -5,12 +5,12 @@
 		<li class="dropdown">
 			<a href="#" class="dropdown-toggle " data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false">Tour <b class=" icon-angle-down"></b></a>
 			<ul class="dropdown-menu">
-				<li><a href="beach">Beach</a></li>
-				<li><a href="#">History</a></li>
-				<li><a href="trekking">Trekking</a></li>
-				<li><a href="biking">Bikking</a></li>
-				<li><a href="#">Overland</a></li>
-				<li><a href="golf">Golf</a></li>
+				<li><a href="tour_{{"Beach"}}">Beach</a></li>
+				<li><a href="tour_{{"History"}}">History</a></li>
+				<li><a href="tour_{{"Trekking"}}">Trekking</a></li>
+				<li><a href="tour_{{"Biking"}}">Biking</a></li>
+				<li><a href="tour_{{"Overland"}}">Overland</a></li>
+				<li><a href="tour_{{"Golf"}}">Golf</a></li>
 			</ul>
 		</li>
 		<li><a href="provinces">Provinces</a></li>
