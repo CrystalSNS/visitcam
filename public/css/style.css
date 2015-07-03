@@ -355,8 +355,8 @@ section.callaction {
 }
 
 #content img {
-	max-width:100%;
-	height:auto;
+	max-width:200px;
+	height:200px;
 }
 
 /* --- Call to action --- */
@@ -2013,4 +2013,34 @@ article img.pull-right, article .align-right{
 	background-color:#f6f6f6;
 	box-shadow: 1px 1px 1px rgba(212,212,212,0.64);
 	float: right;
+}
+/*pro_tour*/
+ul span.text-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.img_wrap {
+  height: 250px;
+  width: 280px;
+}
+#title{
+	margin-top: 2%;
+	margin-bottom: 15px;
+	margin-left: 40%;
+	
+ul.img-list {
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+ul.img-list li {
+  display: inline-block;
+  height: 250px;
+  margin: 0 1em 1em 0;
+  margin-top: 5px;
+  position: relative;
+  width: 280px;
 }

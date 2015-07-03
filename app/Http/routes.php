@@ -28,8 +28,9 @@ Route::get('transportation', 'TransportationController@index');
 //----------Lyta
 Route::get('provinces', 'ProvincesController@index');
 Route::get('province_imgs_{id}', 'ProvincesImgsController@index');
-Route::get('province_map', 'ProvinceMapController@index');
-Route::get('province_hotel', 'ProvinceHotelController@index');
+Route::get('province_map_{id}', 'ProvinceMapController@index');
+Route::get('province_hotel_{id}', 'ProvinceHotelController@index');
+Route::get('province_tour_{id}', 'ProvinceTourController@index');
 //----------  Cheata
 Route::get('beach', 'TourBeachController@index');
 Route::get('trekking', 'TourTrekkingController@index');
