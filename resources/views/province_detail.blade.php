@@ -92,7 +92,7 @@
 							<h5 class="widgetheading"><h3>{{$prodetail['pro_name']}}</h3></h5>
 							<ul class="cat">
 								<li><i class="icon-angle-right"></i><a href="province_{{$prodetail['province_id']}}">{{$prodetail['pro_name']}} Overview</a></li>
-								<li><i class="icon-angle-right"></i><a href="province_imgs_{{1}}">{{$prodetail['pro_name']}} Photos</a></li>
+								<li><i class="icon-angle-right"></i><a href="province_imgs_{{$prodetail['province_id']}}">{{$prodetail['pro_name']}} Photos</a></li>
 								<li><i class="icon-angle-right"></i><a href="province_map_{{$prodetail['province_id']}}">{{$prodetail['pro_name']}} Map</a></li>
 								<li><i class="icon-angle-right"></i><a href="province_tour_{{$prodetail['province_id']}}">{{$prodetail['pro_name']}} Tours</a></li>
 								<li><i class="icon-angle-right"></i><a href="province_hotel_{{$prodetail['province_id']}}">{{$prodetail['pro_name']}} Hotels</a></li>
