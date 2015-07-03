@@ -31,7 +31,7 @@ Route::get('province_imgs_{id}', 'ProvincesImgsController@index');
 Route::get('province_map', 'ProvinceMapController@index');
 Route::get('province_hotel', 'ProvinceHotelController@index');
 //----------  Cheata
-Route::get('beach', 'TourBeachController@index');
+Route::get('tour_{name}', 'TourController@index');
 Route::get('trekking', 'TourTrekkingController@index');
 Route::get('biking', 'TourBikingController@index');
 Route::get('golf', 'TourGolfController@index');
