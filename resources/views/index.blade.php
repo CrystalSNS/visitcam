@@ -24,6 +24,10 @@
 
 </header>
 <body>
+@foreach($indexObject['slide'] as $slideshow)
+	{{$slideshow['slide_title']}}
+	@endforeach
+
 <div id="wrapper">
 	<section id="featured">
 	<!-- start slider -->
@@ -72,6 +76,9 @@
 		<div class="row">
 			<div class="col-lg-12">
 				<h3 class="heading">Popular History Place</h3>
+				@foreach($indexObject['history'] as $historypl)
+					{{$historypl['pl_name']}}
+				@endforeach
 				<div class="row">
 					<section id="projects">
 					<ul id="thumbs" class="portfolio">

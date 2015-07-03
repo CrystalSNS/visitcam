@@ -30,7 +30,7 @@
 			<div class="row">
 				<div class="col-lg-12">
 					<ul class="breadcrumb">
-						<li><a href="province_{{$provincedetail[0]['pro_id']}}"><i class="fa fa-home"></i></a><i class="icon-angle-right"></i></li>
+						<li><a href="provinces"><i class="fa fa-home"></i></a><i class="icon-angle-right"></i></li>
 						<li class="active">{{$provincedetail[0]['pro_name']}}</li>
 					</ul>
 				</div>
@@ -76,7 +76,7 @@
 										</li>
 									</ul>
 								</div>
-								<p class="desc_pro">{{$prodetail['ov_bottom_text']}}</p>
+								<<p class="desc_pro">{{$prodetail['ov_bottom_text']}}</p>
 							</div>
 						</article>
 					@endforeach
@@ -92,7 +92,7 @@
 							<h5 class="widgetheading"><h3>{{$prodetail['pro_name']}}</h3></h5>
 							<ul class="cat">
 								<li><i class="icon-angle-right"></i><a href="province_{{$prodetail['province_id']}}">{{$prodetail['pro_name']}} Overview</a></li>
-								<li><i class="icon-angle-right"></i><a href="province_imgs_{{$prodetail['province_id']}}">{{$prodetail['pro_name']}} Photos</a></li>
+								<li><i class="icon-angle-right"></i><a href="province_imgs_{{1}}">{{$prodetail['pro_name']}} Photos</a></li>
 								<li><i class="icon-angle-right"></i><a href="province_map_{{$prodetail['province_id']}}">{{$prodetail['pro_name']}} Map</a></li>
 								<li><i class="icon-angle-right"></i><a href="province_tour_{{$prodetail['province_id']}}">{{$prodetail['pro_name']}} Tours</a></li>
 								<li><i class="icon-angle-right"></i><a href="province_hotel_{{$prodetail['province_id']}}">{{$prodetail['pro_name']}} Hotels</a></li>
@@ -107,4 +107,3 @@
 </div>
 </body>
 @include('static.footer')
-
