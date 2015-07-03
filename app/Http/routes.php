@@ -23,7 +23,7 @@ Route::get('province_hotel_{id}', 'ProvinceHotelController@index');
 Route::get('province_tour_{id}', 'ProvinceTourController@index');
 Route::get('province_{id}', 'ProvinceDetailController@index');
 
-Route::get('travel_guide', 'TraditionalController@index');
+Route::get('travel_guide', 'FestivalController@index');
 Route::get('geography_weather', 'GeographyController@index');
 Route::get('history', 'HistoryController@index');
 Route::get('religion', 'ReligionController@index');

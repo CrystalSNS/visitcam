@@ -14,8 +14,8 @@ class ProvinceHotelController extends Controller {
 	 */
 	public function index($id)
 	{
-		$pro_hotel = Province_hotelsModel::getPro_hotel($id);
-		return view('province_hotel')->with('hotel',$pro_hotel);
+		$pro_ho = Province_hotelsModel::getPro_hotel($id);
+		return view('province_hotel')->with('prohotel',$pro_ho);
 	
 	}
 
