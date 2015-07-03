@@ -4,7 +4,7 @@ use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
 use Illuminate\Http\Request;
-use App\Province_DetailModel;
+use App\Province_detailModel;
 class ProvinceDetailController extends Controller {
 
 	/**
@@ -14,7 +14,7 @@ class ProvinceDetailController extends Controller {
 	 */
 	public function index($id)
 	{
-		$pro_detail = Province_DetailModel::getPro_detail($id);
+		$pro_detail = Province_detailModel::getPro_detail($id);
 		return view('province_detail')->with('provincedetail',$pro_detail);
 	
 	}

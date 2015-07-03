@@ -30,7 +30,7 @@
 			<div class="row">
 				<div class="col-lg-12">
 					<ul class="breadcrumb">
-						<li><a href="provinces"><i class="fa fa-home"></i></a><i class="icon-angle-right"></i></li>
+						<li><a href="province_{{$provincedetail[0]['pro_id']}}"><i class="fa fa-home"></i></a><i class="icon-angle-right"></i></li>
 						<li class="active">{{$provincedetail[0]['pro_name']}}</li>
 					</ul>
 				</div>
@@ -76,7 +76,7 @@
 										</li>
 									</ul>
 								</div>
-								<<p class="desc_pro">{{$prodetail['ov_bottom_text']}}</p>
+								<p class="desc_pro">{{$prodetail['ov_bottom_text']}}</p>
 							</div>
 						</article>
 					@endforeach

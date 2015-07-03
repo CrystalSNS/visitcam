@@ -31,7 +31,7 @@
 			<div class="col-lg-12">
 				<ul class="breadcrumb">
 					<li><a href="province_{{$provinceimgs[0]['province_id']}}"><i class="fa fa-home"></i></a><i class="icon-angle-right"></i></li>
-					<li class="active">Phnom Penh</li>
+					<li class="active">{{$provinceimgs[0]['pro_name']}}</li>
 				</ul>
 			</div>
 		</div>
