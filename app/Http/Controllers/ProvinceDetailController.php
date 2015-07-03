@@ -14,8 +14,8 @@ class ProvinceDetailController extends Controller {
 	 */
 	public function index($id)
 	{
-		$pro_detail = Province_detailModel::getPro_detail($id);
-		return view('province_detail')->with('provincedetail',$pro_detail);
+		$pro_de = Province_detailModel::getPro_detail($id);
+		return view('province_detail')->with('prode',$pro_de);
 	
 	}
 

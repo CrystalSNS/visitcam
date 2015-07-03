@@ -17,11 +17,11 @@ Route::get('index', 'IndexController@index');
 Route::get('tour_{name}', 'TourController@index');
 
 Route::get('provinces', 'ProvincesController@index');
-Route::get('province_{id}', 'ProvinceDetailController@index');
 Route::get('province_imgs_{id}', 'ProvincesImgsController@index');
 Route::get('province_map_{id}', 'ProvinceMapController@index');
 Route::get('province_hotel_{id}', 'ProvinceHotelController@index');
 Route::get('province_tour_{id}', 'ProvinceTourController@index');
+Route::get('province_{id}', 'ProvinceDetailController@index');
 
 Route::get('travel_guide', 'FestivalController@index');
 Route::get('geography_weather', 'GeographyController@index');
