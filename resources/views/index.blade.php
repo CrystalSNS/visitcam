@@ -1,4 +1,28 @@
 @include('static.header')
+<div class="navbar-collapse collapse ">
+	<ul class="nav navbar-nav">
+		<li class="active" ><a href="index">Home</a></li>
+		<li class="dropdown">
+			<a href="#" class="dropdown-toggle " data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false">Tour <b class=" icon-angle-down"></b></a>
+			<ul class="dropdown-menu">
+				<li><a href="tour_{{"Beach"}}">Beach</a></li>
+				<li><a href="tour_{{"History"}}">History</a></li>
+				<li><a href="tour_{{"Trekking"}}">Trekking</a></li>
+				<li><a href="tour_{{"Biking"}}">Biking</a></li>
+				<li><a href="tour_{{"Overland"}}">Overland</a></li>
+				<li><a href="tour_{{"Golf"}}">Golf</a></li>
+			</ul>
+		</li>
+		<li><a href="provinces">Provinces</a></li>
+		<li ><a href="travel_guide">Travel Guide</a></li>
+		<li ><a href="about_us">About Us</a></li>
+		<li><a href="contact_us">Contact</a></li>
+	</ul>
+</div>
+</div>
+</div>
+
+</header>
 <body>
 <div id="wrapper">
 	<section id="featured">
@@ -12,27 +36,33 @@
               <li>
                 <img src="img/slides/1.jpg" alt="" />
                 <div class="flex-caption">
-                    <h3>Modern Design</h3> 
-					<p>Duis fermentum auctor ligula ac malesuada. Mauris et metus odio, in pulvinar urna</p> 
-					<a href="#" class="btn btn-theme">Learn More</a>
+					<p>របាំអប្សារខ្មែរ</p>
                 </div>
               </li>
               <li>
                 <img src="img/slides/2.jpg" alt="" />
                 <div class="flex-caption">
-                    <h3>Fully Responsive</h3> 
-					<p>Sodales neque vitae justo sollicitudin aliquet sit amet diam curabitur sed fermentum.</p> 
-					<a href="#" class="btn btn-theme">Learn More</a>
+
+					<p>កោះរ៉ុង</p>
+
                 </div>
               </li>
               <li>
                 <img src="img/slides/3.jpg" alt="" />
                 <div class="flex-caption">
-                    <h3>Clean & Fast</h3> 
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit donec mer lacinia.</p> 
-					<a href="#" class="btn btn-theme">Learn More</a>
+
+					<p>ប្រាសាទព្រះវិហារ</p>
+
                 </div>
               </li>
+				<li>
+					<img src="img/slides/4.jpg" alt="" />
+					<div class="flex-caption">
+
+						<p>ព្រះបរមរាជវាំង</p>
+
+					</div>
+				</li>
             </ul>
         </div>
 	<!-- end slider -->
@@ -215,6 +245,37 @@
 
 	</div>
 	</section>
-	
+
+	<script type="text/javascript">
+
+		var make_button_active = function()
+		{
+			alert("YES");
+			//Get item siblings
+			var siblings =($(this).siblings());
+
+			//Remove active class on all buttons
+			siblings.each(function (index)
+					{
+						$(this).removeClass('active');
+					}
+			)
+
+
+			//Add the clicked button class
+			$(this).addClass('active');
+		}
+
+		//Attach events to menu
+		$(document).ready(
+				function()
+				{
+					alert("YES");
+
+					$(".nav li").click(make_button_active);
+				}
+		)
+
+	</script>
 </body>
 @include('static.footer')

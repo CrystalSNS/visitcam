@@ -16,7 +16,8 @@ class FestivalController extends Controller {
 	 */
 	public function index()
 	{
-		$evt = EventsModel::getEevents();
+		$evt = EventsModel::paginate(4);
+		$evt->setPath('festival_event');
 		 return view('festival_event')->with('events',$evt);
 	}
 

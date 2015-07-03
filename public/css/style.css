@@ -2,7 +2,7 @@
 @import url('http://fonts.googleapis.com/css?family=Noto+Serif:400,400italic,700|Open+Sans:300,400,600,700');
 
 /* === prettify === */
-@import url('../../../visit-cambodia-dynamic/js/google-code-prettify/prettify.css');
+@import url('../js/google-code-prettify/prettify.css');
 /* === fontawesome === */
 @import url('font-awesome.css');
 /* === custom icon === */
@@ -16,7 +16,7 @@
 ==================================== */
 
 body {
-	font-family:'Open Sans', Arial, sans-serif;
+	font-family: 'HelveticaNeue-UltraLight';
 	font-size:14px;
 	font-weight:300;
 	line-height:1.6em;
@@ -31,13 +31,7 @@ a:active {
 	clear:both;
 }
 
-h1,h2, h3, h4, h5, h6 {
-	font-family:'Open Sans', Arial, sans-serif;
-	font-weight:700;
-	line-height:1.1em;
-	color:#333;
-	margin-bottom: 5px;
-}
+
 
 /* ===================================
 2. layout
@@ -111,7 +105,7 @@ header .navbar {
 .navbar-brand {
     color: #222;
 	text-transform: uppercase;
-    font-size: 24px;
+    font-size: 32px;
     font-weight: 700;
     line-height: 1em;
 	letter-spacing: -1px;
@@ -328,7 +322,7 @@ ul.nav li.dropdown a {
 }
 
 .flex-caption {background:none; -ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endColorstr=#4C000000); filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endColorstr=#4C000000); zoom: 1;}
-.flex-caption { bottom: 35px; background-color: rgba(0, 0, 0, 0.8); color: #fff; margin: 0; padding: 25px 25px 25px 30px; position: absolute; right: 0; width: 295px;}
+.flex-caption {opacity: 0.7; bottom: 35px; background-color: #87ad22; color: #fff; margin: 0; padding: 25px 25px 25px 30px; position: absolute; right: 0; width: 295px;}
 .flex-caption h3 {color: #fff; letter-spacing: 1px; margin-bottom: 8px; text-transform: uppercase;}
 .flex-caption p {margin: 0 0 15px;}
 
@@ -455,7 +449,7 @@ section.callaction {
 
 /* --- breadcrumbs --- */
 #inner-headline ul.breadcrumb {
-	margin:30px 0 0;
+	margin:15px 0 0;
 	float:left;
 }
 
@@ -464,7 +458,7 @@ section.callaction {
 	padding-bottom:0;
 }
 #inner-headline ul.breadcrumb li {
-	font-size:13px;
+	font-size:25px;
 	color:#fff;
 }
 
@@ -1993,7 +1987,7 @@ article img.pull-right, article .align-right{
 }
 
 .province-div a:hover{
-	font-size:19px;
+
 	color: #87ad22;
 	cursor: pointer;
 	text-decoration: none;
@@ -2014,6 +2008,7 @@ article img.pull-right, article .align-right{
 	box-shadow: 1px 1px 1px rgba(212,212,212,0.64);
 	float: right;
 }
+
 /*pro_tour*/
 ul span.text-content span {
   display: table-cell;
@@ -2043,4 +2038,88 @@ ul.img-list li {
   margin-top: 5px;
   position: relative;
   width: 280px;
+
+
+#inner-headline{
+	background-color:#87ad22;
+}
+.pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus {
+	z-index: 2;
+	color: #fff;
+	background-color: #87ad22;
+	border-color:GrayText;
+	cursor: default;
+}
+.pagination>li>a, .pagination>li>span {
+	position: relative;
+	float: left;
+	padding: 6px 12px;
+	line-height: 1.428571429;
+	text-decoration: none;
+	color: #87ad22;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	margin-left: -1px;
+}
+
+h1, h2, h3, h4, h5, h6,p,a{
+	font-family: 'HelveticaNeue-UltraLight';
+	font-weight: 500!important;
+}
+.navbar .nav > li > a{
+	color: #000000;
+}
+.navbar .nav > li.active > a{
+	color: #000000;
+	text-decoration: underline;
+}
+
+.dropdown-menu {
+	top: 65%;
+	margin-left: 15px;
+	min-width: 100px;
+}
+
+.province_bl div.post-image {
+
+}
+
+.province_bl div.post-image:hover {
+
+	-moz-box-shadow: 10px 20px 50px #ccc;
+	-webkit-box-shadow: 10px 20px 50px #ccc;
+	box-shadow: 10px 20px 50px #ccc;
+
+
+}
+
+#ren_img{
+
+	margin-left: 1%;
+	margin-top: -2%;
+}
+
+#lyta_img{
+	margin-left: 1%;
+	margin-top: -2%;
+}
+
+#cheata_img{
+	margin-left: -16%;
+	margin-top: -2%;
+}
+
+
+#noch_img{
+	margin-top: -1%;
+}
+
+.item-thumbs .hover-wrap .overlay-img-thumb {
+	background: #87ad22 !important;
+}
+
+
+.scrollup {
+
+	background: #87ad22 !important;
 }
