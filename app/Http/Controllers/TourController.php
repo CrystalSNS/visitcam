@@ -15,6 +15,7 @@ class TourController extends Controller {
 	public function index($name)
 	{
 		$tour = TourplacesModel::gettourPlace($name);
+		$tour ->setPath('tour_'.$name);
 		return view('tourplace')->with('tourplaces',$tour);
 	}
 

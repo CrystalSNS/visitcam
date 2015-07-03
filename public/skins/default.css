@@ -121,8 +121,15 @@ ul.clients li:hover {
 }
 
 .btn-theme {
-  border:1px solid #68A4C4;
-  background: #68A4C4;
+
+  background: #87ad22;
+}
+
+.btn-theme:hover {
+	border:1px solid #87ad22;
+	background: #ffffff;
+	color:#87ad22;
+
 }
 
 /* modal styled */

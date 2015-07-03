@@ -58,6 +58,8 @@
         					<h4>Highlights</h4>
         					<p>{{$tou['pl_desc']}}</p>
         					<input type="button" class="bnt_detail" name="detail" value="View Detail">
+							<i id="pl_view" class="fa fa-eye fa-2x">{{$tou['pl_vote']}} </i>
+
         				</div>
 				</article>
 				@endforeach
@@ -66,8 +68,9 @@
 			@include('static.menu_tour')
 		</div>
 	</div>
+		<h4 style="text-align: center;">{!!$tourplaces->render() !!}</h4>
 	</section>
-	
+	</div>
 	</body>
 <!-- end body -->
 @include('static.footer')

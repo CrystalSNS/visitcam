@@ -30,22 +30,27 @@
 		<div class="row">
 			<div class="col-lg-12">
 				<ul class="breadcrumb">
-					<li><a href="#"><i class="fa fa-home"></i></a><i class="icon-angle-right"></i></li>
-					<li class="active">Contact_Us</li>
+					<li><a href="index"><i class="fa fa-home"></i></a><i class="icon-angle-right"></i></li>
+					<li class="active">Contact Us</li>
 				</ul>
 			</div>
 		</div>
 	</div>
 	</section>
 	<section id="content">
-	<div class="map">
-		<iframe src="https://www.google.com.kh/maps/place/Phnom+Penh/@11.5793642,104.8901867,11z/data=!3m1!4b1!4m2!3m1!1s0x3109513dc76a6be3:0x9c010ee85ab525bb!10m1!1e2?hl=en">
-		</iframe>
-	</div>
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12">
-				<h4>Get in touch with us by filling <strong>contact form below</strong></h4>
+				<div>
+					<div style=" margin-top: 5%; margin-bottom: 5%; margin-left: 35%; width: 42%; text-align: center;">
+						<h4 style="color: black; text-align: justify; ">Head Office : Street 1003, Sangkat Payab, Phnom Penh</h4>
+						<h4 style="color: black; text-align: justify; ">Email address : info@derlengs.com</h4>
+						<h4 style="color: black; text-align: justify; ">Contact : 023 643 11 88</h4>
+						<h4 style="color: black; text-align: justify; ">Official Facebook Page : <a href="https://www.facebook.com/derlengs" target="_blank">https://www.facebook.com/delengs</a></h4>
+					</div>
+
+				</div>
+				<h4>Get in touch with us by filling contact form below</h4>
 				<form id="contactform" action="contact/contact.php" method="post" class="validateform" name="send-contact">
 					<div id="sendmessage">
 						 Your message has been sent. Thank you!
@@ -71,8 +76,9 @@
 							<div class="validation">
 							</div>
 							<p>
-								<button class="btn btn-theme margintop10 pull-left" type="submit">Submit message</button>
+
 								<span class="pull-right margintop20">* Please fill all required form field, thanks!</span>
+								<button class="my_submit btn btn-theme margintop10 pull-left" type="submit">Submit message</button>
 							</p>
 						</div>
 					</div>

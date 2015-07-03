@@ -10,7 +10,7 @@ class TourplacesModel extends Model {
 		return TourplacesModel::join('categories','tourplaces.category_id','=','categories.cat_id')
 			->where('categories.cat_name','=',$name)
 			->select('tourplaces.*','categories.cat_name','categories.cat_id')
-			->get();
+			->paginate(2);
 		//return Province_detailModel::where ('province_id', '=', $id)->get();
 	}
 
