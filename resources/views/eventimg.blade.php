@@ -19,7 +19,7 @@
 		    <div class="col-lg-12">
 		    		@foreach($eventimgs as $evtimgs)
 
-		            <div class="col-lg-5 col-md-4 col-xs-6 thumb">
+		            <div class="col-lg-4 col-md-4 col-xs-6 thumb">
 		            <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Khmer Event" data-caption=" " data-image='{{$evtimgs['event_img_url']}}' data-target="#image-gallery">
 		                <img src='{{$evtimgs['event_img_url']}}' alt="View image"/>
 		            </a>
