@@ -15,6 +15,7 @@ return array(
     'CreatePasswordResetsTable' => $baseDir . '/database/migrations/2014_10_12_100000_create_password_resets_table.php',
     'CreatePlaceImgsModelsTable' => $baseDir . '/database/migrations/2015_06_22_005936_create_place_imgs_models_table.php',
     'CreateProvinceDetailModelsTable' => $baseDir . '/database/migrations/2015_06_23_192221_create_province__detail_models_table.php',
+    'CreateProvinceHotelModel' => $baseDir . '/database/migrations/2015_07_02_134804_create_province_hotel_model.phps_table.php',
     'CreateProvinceHotelsModelsTable' => $baseDir . '/database/migrations/2015_06_22_005954_create_province_hotels_models_table.php',
     'CreateProvinceImgsModelsTable' => $baseDir . '/database/migrations/2015_06_22_010002_create_province_imgs_models_table.php',
     'CreateProvinceMapModelsTable' => $baseDir . '/database/migrations/2015_07_01_214359_create_province_map_models_table.php',

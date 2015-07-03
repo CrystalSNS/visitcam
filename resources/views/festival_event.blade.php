@@ -18,30 +18,29 @@
 		<section id="content">
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-8">
+					<div class="col-lg-9">
 						<article>
 							
 							<!-- end flexslider -->
 							@foreach($events as $evts)
 							<a href="eventImg_{{$evts['event_id']}}">
-							<div class="col-lg-6">									
+								<div class="col-lg-6">									
 									<h4>{{$evts['event_title']}}</h4>
-									<img src='{{$evts['event_img_url']}}' alt="View image" class="align-left"/>
+									<img src='{{$evts['event_img_url']}}' alt="View image"/>
 									<p>{{$evts['event_desc']}}</p>
-							</div>
+								</div>
 							</a>
 							@endforeach
-						
-					</article>
-					
-				</div>
+							
+						</article>					
+					</div>
 
-				@include('static.menu_travel')
+					@include('static.menu_travel')
+				</div>
 			</div>
-		</div>
-	</section>
-	
-	<div>
+		</section>
 		
-	</body>
-	@include('static.footer')
+		<div>
+			
+		</body>
+		@include('static.footer')
