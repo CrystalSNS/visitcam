@@ -14,8 +14,8 @@ class ProvinceTourController extends Controller {
 	 */
 	public function index($id)
 	{
-		$pro_tour = Province_tourModel::getPro_tour($id);
-		return view('province_tour')->with('provincetour',$pro_tour);
+		$pro_to = Province_tourModel::getPro_tour($id);
+		return view('province_tour')->with('proto',$pro_to);
 	
 	}
 

@@ -30,8 +30,8 @@
 			<div class="row">
 				<div class="col-lg-12">
 					<ul class="breadcrumb">
-						<li><a href="province_{{$provincedetail[0]['pro_id']}}"><i class="fa fa-home"></i></a><i class="icon-angle-right"></i></li>
-						<li class="active">{{$provincedetail[0]['pro_name']}}</li>
+						<li><a href="provinces"><i class="fa fa-home"></i></a><i class="icon-angle-right"></i></li>
+						<li class="active">{{$prode[0]['pro_name']}}</li>
 					</ul>
 				</div>
 			</div>
@@ -41,7 +41,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-9">
-					@foreach($provincedetail as $prodetail)
+					@foreach($prode as $prodetail)
 						<article>
 							<div class="col-lg-3" id="para">
 								<h3>{{$prodetail['ov_title']}}</h3><br/>
