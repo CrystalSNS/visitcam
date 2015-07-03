@@ -4,8 +4,8 @@ use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
 use Illuminate\Http\Request;
-use App\Province_mapModel;
-class ProvinceMapController extends Controller {
+use App\Province_tourModel;
+class ProvinceTourController extends Controller {
 
 	/**
 	 * Display a listing of the resource.
@@ -14,8 +14,8 @@ class ProvinceMapController extends Controller {
 	 */
 	public function index($id)
 	{
-		$pro_map = Province_mapModel::getPro_map($id);
-		return view('province_map')->with('provincemap',$pro_map);
+		$pro_tour = Province_tourModel::getPro_tour($id);
+		return view('province_tour')->with('provincetour',$pro_tour);
 	
 	}
 

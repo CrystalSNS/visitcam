@@ -66,6 +66,58 @@ list-style: none;
 	box-shadow: 2px 3px 3px rgba(212,212,212,0.64);
 	float: right;
 }
+
+.pic{
+	width: 370px;
+}
+
 .desc_pro{
 	margin-top: 2%;
+}
+/*pro_imgs*/
+.jLastic{
+	position:relative;
+	margin-left: 4%;
+	overflow:visible;
+}
+.article{
+	width: 70%;
+	margin: 20px;
+	margin-right: 0px;
+	padding: 20px;
+	background-color:#f6f6f6;
+	box-shadow: 1px 1px 1px rgba(212,212,212,0.64);
+	float: right;
+}
+
+/*pro_tour*/
+ul span.text-content span {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+.img_wrap {
+	height: 250px;
+	width: 280px;
+}
+#title {
+	margin-top: 2%;
+	margin-bottom: 15px;
+	margin-left: 40%;
+}
+
+ul.img-list {
+
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+ul.img-list li {
+	display: inline-block;
+	height: 250px;
+	margin: 0 1em 1em 0;
+	margin-top: 5px;
+	position: relative;
+	width: 280px;
 }

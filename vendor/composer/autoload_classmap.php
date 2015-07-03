@@ -21,6 +21,7 @@ return array(
     'CreateProvinceMapModelsTable' => $baseDir . '/database/migrations/2015_07_01_214359_create_province_map_models_table.php',
     'CreateProvinceModelsTable' => $baseDir . '/database/migrations/2015_06_21_110349_create_province_models_table.php',
     'CreateProvinceOverviewsModelsTable' => $baseDir . '/database/migrations/2015_06_22_010009_create_province_overviews_models_table.php',
+    'CreateProvinceTourModel' => $baseDir . '/database/migrations/2015_07_03_060627_create_province_tour_model.phps_table.php',
     'CreateProvincesModelsTable' => $baseDir . '/database/migrations/2015_06_22_010015_create_provinces_models_table.php',
     'CreateReligionsModelsTable' => $baseDir . '/database/migrations/2015_06_22_010026_create_religions_models_table.php',
     'CreateTourcategoriesModelsTable' => $baseDir . '/database/migrations/2015_06_22_010041_create_tourcategories_models_table.php',

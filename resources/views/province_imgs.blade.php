@@ -1,5 +1,4 @@
 @include('static.header')
-	<link href="css/style.css" rel="stylesheet" />
 <div class="navbar-collapse collapse ">
 	<ul class="nav navbar-nav">
 		<li ><a href="index">Home</a></li>
@@ -62,13 +61,14 @@
 					</form>
 				</div>
 				<div class="widget">
-					<h5 class="widgetheading"><h3>Phnom Penh</h3></h5>
+					<h5 class="widgetheading"><h3>{{$proimgs['pro_name']}} </h3></h5>
 						<ul class="cat">
-						<li><i class="icon-angle-right"></i><a href="province_detail">Phnom Penh Overview</a></li>
-						<li><i class="icon-angle-right"></i><a href="history">Phnom Penh Photos</a></li>
-						<li><i class="icon-angle-right"></i><a href="religion">Phnom Penh Map</a></li>
-						<li><i class="icon-angle-right"></i><a href="traditional_costume">Phnom Penh Tours</a></li>
-						<li><i class="icon-angle-right"></i><a href="festival_event">Phnom Penh Hotels</a></li>
+							<li><i class="icon-angle-right"></i><a href="province_{{$proimgs['province_id']}}">{{$proimgs['pro_name']}} Overview</a></li>
+							<li><i class="icon-angle-right"></i><a href="province_imgs_{{$proimgs['province_id']}}">{{$proimgs['pro_name']}} Photos</a></li>
+							<li><i class="icon-angle-right"></i><a href="province_map_{{$proimgs['province_id']}}">{{$proimgs['pro_name']}} Map</a></li>
+							<li><i class="icon-angle-right"></i><a href="province_tour_{{$proimgs['province_id']}}">{{$proimgs['pro_name']}} Tours</a></li>
+							<li><i class="icon-angle-right"></i><a href="province_hotel_{{$proimgs['province_id']}}">{{$proimgs['pro_name']}} Hotels</a></li>
+
 						</ul>
 				</div>
 				</aside>
