@@ -38,6 +38,7 @@
 					@include('static.menu_travel')
 				</div>
 			</div>
+			<h4 style="text-align: center;">{!!$events->render() !!}</h4>
 		</section>
 		
 		<div>
