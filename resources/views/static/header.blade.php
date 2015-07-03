@@ -1,12 +1,11 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="utf-8">
 		<title>Visit Cambodia</title>
-	<link rel="shortcut icon" type="imge/x-icon" href="img/logo/logo_sm.png"/> 
+			<link rel="shortcut icon" type="imge/x-icon" href="img/logo/logo_sm.png"/>
 
-	</title>
+		</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta name="description" content="" />
 	<meta name="author" content="http://bootstraptaste.com" />
@@ -20,10 +19,6 @@
 	<!-- Theme skin -->
 	<link href="skins/default.css" rel="stylesheet" />
 
-	<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-	<!--[if lt IE 9]>
-	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
 
 </head>
 
@@ -66,3 +61,4 @@
 	
 </header>
 <!-- end header -->
+

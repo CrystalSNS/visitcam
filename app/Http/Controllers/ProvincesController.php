@@ -14,7 +14,8 @@ class ProvincesController extends Controller {
 	 */
 	public function index()
 	{
-	     $pro = ProvincesModel::getProvince();
+	     $pro = ProvincesModel::paginate(8);
+		 $pro ->setPath('provinces');
 		 return view('provinces')->with('province',$pro);
 		 
 	}

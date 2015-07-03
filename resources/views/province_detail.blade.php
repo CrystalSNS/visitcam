@@ -1,5 +1,5 @@
 @include('static.header')
-<link href="css/phnom_penh.css" rel="stylesheet" />
+<link href="css/province-detail.css" rel="stylesheet" />
 <body>
 <div id="wrapper">
 	<section id="inner-headline">
@@ -53,7 +53,7 @@
 										</li>
 									</ul>
 								</div>
-								<<p>{{$prodetail['ov_bottom_text']}}</p>
+								<<p class="desc_pro">{{$prodetail['ov_bottom_text']}}</p>
 							</div>
 						</article>
 					@endforeach
