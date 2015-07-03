@@ -32,6 +32,7 @@
 					<ul class="breadcrumb">
 						<li><a href="provinces"><i class="fa fa-home"></i></a><i class="icon-angle-right"></i></li>
 						<li class="active">{{$prode[0]['pro_name']}}</li>
+						<li class="active">{{$provincedetail[0]['pro_name']}}</li>
 					</ul>
 				</div>
 			</div>
@@ -107,4 +108,3 @@
 </div>
 </body>
 @include('static.footer')
-

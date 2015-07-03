@@ -3,8 +3,10 @@
 //use App\Http\Requests;
 //use App\Http\Controllers\Controller;
 
+use App\TourplacesModel;
 use Illuminate\Http\Request;
-
+use App\SlideshowsModel;
+use App\TourplacesModelModel;
 class IndexController extends Controller {
 
 	/**
@@ -14,7 +16,14 @@ class IndexController extends Controller {
 	 */
 	public function index()
 	{
-		return view('index');
+		$index_obj=[];
+		$index_obj['slide']= SlideshowsModel::getSlide();
+		$index_obj['history']=TourplacesModel::gettourPlacelimit('History');
+		$index_obj['beach']=TourplacesModel::gettourPlacelimit('Beach');
+		$index_obj['overland']=TourplacesModel::gettourPlacelimit('Overland');
+
+		return view('index')->with('indexObject',$index_obj);
+		//return view('index');
 	}
 
 	/**
